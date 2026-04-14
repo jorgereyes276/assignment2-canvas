@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drawing App</title>
+  <link rel="stylesheet" href="drawing.css">
+</head>
+<body>
+
+  <h1>Drawing App</h1>
+
+  <div id="color-palette">
+    <button class="color-swatch active" data-color="black" style="background:black;" title="Black"></button>
+    <button class="color-swatch" data-color="white" style="background:white;" title="White"></button>
+    <button class="color-swatch" data-color="red" style="background:red;" title="Red"></button>
+    <button class="color-swatch" data-color="orange" style="background:orange;" title="Orange"></button>
+    <button class="color-swatch" data-color="yellow" style="background:yellow;" title="Yellow"></button>
+    <button class="color-swatch" data-color="green" style="background:green;" title="Green"></button>
+    <button class="color-swatch" data-color="blue" style="background:blue;" title="Blue"></button>
+    <button class="color-swatch" data-color="purple" style="background:purple;" title="Purple"></button>
+  </div>
+
+  <canvas id="drawing-canvas"></canvas>
+
+  <p class="instruction">Click and drag to draw</p>
+
+  <button id="btn-clear">Clear</button>
+
+  <script src="drawing.js"></script>
+</body>
+</html>
